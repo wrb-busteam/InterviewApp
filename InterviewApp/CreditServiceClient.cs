@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterviewApp;
 
-public class CreditServiceClient
+public class CreditServiceClient : ICreditServiceClient
 {
     public async Task<int> GetCreditLimit(string firstName, string surname, DateTime birthDate)
     {
