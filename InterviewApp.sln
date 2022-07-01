@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewApp", "InterviewApp\InterviewApp.csproj", "{A1B5099C-0EA3-4396-9F16-9304229581FC}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp", "InterviewApp\InterviewApp.csproj", "{A1B5099C-0EA3-4396-9F16-9304229581FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewApp.Consumer", "InterviewApp.Consumer\InterviewApp.Consumer.csproj", "{4E24E73B-960A-4328-BA62-23C2C449EB63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp.Consumer", "InterviewApp.Consumer\InterviewApp.Consumer.csproj", "{4E24E73B-960A-4328-BA62-23C2C449EB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewApp.Test", "InterviewApp.Test\InterviewApp.Test.csproj", "{36914411-79B8-4B60-A0A0-62780C7C5AD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{4E24E73B-960A-4328-BA62-23C2C449EB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E24E73B-960A-4328-BA62-23C2C449EB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E24E73B-960A-4328-BA62-23C2C449EB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36914411-79B8-4B60-A0A0-62780C7C5AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36914411-79B8-4B60-A0A0-62780C7C5AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36914411-79B8-4B60-A0A0-62780C7C5AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36914411-79B8-4B60-A0A0-62780C7C5AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F077FD16-312B-4500-89A8-255EEB223BF9}
 	EndGlobalSection
 EndGlobal

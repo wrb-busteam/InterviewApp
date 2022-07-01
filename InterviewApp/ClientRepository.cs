@@ -4,9 +4,8 @@ using System.Data.SqlClient;
 
 namespace InterviewApp;
 
-public class ClientRepository
+public class ClientRepository : IClientRepository
 {
-    
     public Client GetById(int clientId)
     {
         Client client = null;
@@ -39,6 +38,6 @@ public class ClientRepository
             };
         }
 
-        return client;
+        return client ?? new Client();
     }
 }
